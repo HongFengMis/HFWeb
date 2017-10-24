@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+
+.MS .tit{
+    position: absolute; left: 167px; top: 49px;
+    width: 377px; height: 92px;
+}
+
+.MS .cloud1{
+    position: absolute; left: 463px; top: 450px;
+    width: 234px; height: 129px;
+}
+.MS .cloud2{
+    position: absolute; left: 3px; top: 906px;
+    width: 231px; height: 129px;
+}
+.MS .ball{
+    position: absolute; left: 580px; top: 240px;
+    width: 104px; height: 88px;
+}
+
+.MS .time1{
+    position: absolute; left: 29px; top: 107px;
+    width: 96px; height: 121px;
+}
+.MS .time1_fz{
+    position: absolute; left: 74px; top: 107px;
+    width: 18px; height: 62px;
+    transform-origin: bottom center;
+}
+.MS .time1_sz{
+    position: absolute; left: 76px; top: 131px;
+    width: 13px; height: 38px;
+    transform-origin: bottom center;
+}
+.MS .time2{
+    position: absolute; left: 566px; top: 875px;
+    width: 116px; height: 151px;
+}
+.MS .time2_fz{
+    position: absolute; left: 614px; top: 898px;
+    width: 19px; height: 64px;
+    transform-origin: bottom center;
+}
+.MS .time2_sz{
+    position: absolute; left: 617px; top: 925px;
+    width: 13px; height: 36px;
+    transform-origin: bottom center;
+}
+
+.MS .photo{
+    position: absolute; left: 113px; top: 182px;
+    width: 479px; height: 662px;
+}
+.MS .photo_img{
+    position: absolute; left: 0px; top: 0px;
+    width: 479px; height: 662px;
+}
+.MS .photo_man{
+    position: absolute; left: 0px; top: 0px;
+    width: 479px; height: 662px;
+}
+.MS .photo_tmp{
+    position: absolute; left: 0px; top: 0px;
+    width: 479px; height: 662px;
+}
+.MS .photo_line{
+    position: absolute; left: 144px; top: 0px;
+    width: 221px; height: 57px;
+}
+
+.MS .box{
+    position: absolute; left: 141px; top: 853px;
+    width: 418px; height: 178px;
+}
+.MS .hand{
+    position: absolute; left: 517px; top: 883px;
+    width: 36px; height: 109px;
+}
+
+.MS .btn1{
+    position: absolute; left: 138px; top: 1049px;
+    width: 201px; height: 63px;
+}
+.MS .btn2{
+    position: absolute; left: 358px; top: 1049px;
+    width: 201px; height: 63px;
+}
+.MS .boxs{
+    position: absolute; left: 147px; top: 859px;
+    width: 368px; height: 165px;
+    overflow: hidden;
+}
+.MS .boxs ._box{
+    position: absolute; left: 0px; top:0px;
+    width: 368px; height: 250px;
+}
+.MS .box_tmp{
+    position: absolute; left: 147px; top: 859px;
+    width: 368px; height: 165px;
+}
+
+.MS .sun1{
+    position: absolute; left: 26px; top: 91px;
+    width: 127px; height: 126px;
+}
+.MS .sun2{
+    position: absolute; left: 519px; top: 881px;
+    width: 171px; height: 147px;
+}
+.MS .sun3{
+    position: absolute; left: 579px; top: 269px;
+    width: 121px; height: 101px;
+}
+
+.MS .qq1{
+    position: absolute; left: 32px; top: 101px;
+    width: 92px; height: 175px;
+}
+.MS .qq2{
+    position: absolute; left: 593px; top: 296px;
+    width: 58px; height: 111px;
+}
+.MS .qq3{
+    position: absolute; left: 585px; top: 904px;
+    width: 83px; height: 158px;
+}
+
+.MS .dd1{
+    position: absolute; left: 27px; top: 124px;
+    width: 89px; height: 103px;
+}
+.MS .dd2{
+    position: absolute; left: 582px; top: 934px;
+    width: 93px; height: 105px;
+}
+
+.MS .xj1{
+    position: absolute; left: 40px; top: 118px;
+    width: 83px; height: 121px;
+}
+.MS .xj2{
+    position: absolute; left: 580px; top: 925px;
+    width: 93px; height: 109px;
+}

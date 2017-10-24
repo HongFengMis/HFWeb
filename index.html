@@ -1,0 +1,323 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type">
+    <meta content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <title>世界宏丰移动终端</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=720px,user-scalable=no">
+    <script>
+        var DEFAULT_WIDTH = 720,//页面的默认宽度
+            ua=navigator.userAgent.toLowerCase(),//根据useragent的信息获取浏览器信息
+            deviceWidth=window.screen.width,//设备的宽度
+            devicePixelRatio=window.devicePixelRatio||1,//物理像素和设备独立像素的比例，默认为1
+            targetDensitydpi;
+        //Android4.0以下手机不支持viewport的width，需要设置target-densitydpi
+        if(ua.indexOf("android")!==-1&&parseFloat(ua.slice(ua.indexOf("android")+8))<4){
+            targetDensitydpi=DEFAULT_WIDTH/deviceWidth*devicePixelRatio*160;
+            $('meta[name="viewport"]').attr('content','target-densitydpi=' + targetDensitydpi + ',width=device-width,user-scalable=no');
+        }
+    </script>
+
+    <script src="./lib/jquery-2.1.4.min.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+
+
+
+</head>
+
+<body ondragstart="return false" onselect="return false" onselectstart="return false" oncontextmenu="return false">
+<div id="_unable"></div>
+
+<div id="app">
+
+    <section class="cc " id="Loader">
+        <div class="bg p"></div>
+        <div class="main">
+
+            <div class="logo"><img src="img/loader/logo.png" alt=""></div>
+            <div class="index_tit"></div>
+            <div class="index_btn"></div>
+            <div class="loading">0%</div>
+
+        </div>
+    </section>
+
+    <section class="cc" id="Index">
+        <div class="page _box">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide pic1"></div>
+                    <div class="swiper-slide pic2"></div>
+                    <div class="swiper-slide pic3"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!--<div class="tit"></div>-->
+            <div class="tit1"></div>
+            <div class="tit2"></div>
+            <div class="tit3"></div>
+
+            <div class="nav nav1_1" data-nav="1_1"></div>
+            <div class="nav nav1_2" data-nav="1_2"></div>
+            <div class="nav nav1_3" data-nav="1_3"></div>
+            <div class="nav nav1_4" data-nav="1_4"></div>
+            <div class="nav nav1_5" data-nav="1_5"></div>
+            <div class="nav1_6"></div>
+
+            <div class="nav nav2_1" data-nav="2_1"></div>
+            <div class="nav nav2_2" data-nav="2_2"></div>
+            <div class="nav nav2_3" data-nav="2_3"></div>
+            <div class="nav nav2_4" data-nav="2_4"></div>
+            <div class="nav nav2_5" data-nav="2_5"></div>
+            <div class="nav nav2_6" data-nav="2_6"></div>
+
+            <div class="nav nav3_1" data-nav="3_1"></div>
+            <div class="nav nav3_2" data-nav="3_2"></div>
+            <div class="nav nav3_3" data-nav="3_3"></div>
+
+            <div class="foot">温州宏丰电工合金股份有限公司</div>
+
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page1_1">
+        <div class="page _box"></div>
+        <div class="Foot" data-nav="1_1">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            发展历程
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page1_2">
+        <div class="page _box"></div>
+        <div class="Foot" data-nav="1_2">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            企业荣誉
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page1_3">
+        <div class="page _box"></div>
+        <div class="Foot" data-nav="1_3">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            企业文化
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page1_4">
+        <div class="page _box">
+            <div class="btn1 btn1_1" data-nav="1_4_1" data-i="1"></div>
+            <div class="btn1 btn1_2" data-nav="1_4_1" data-i="2"></div>
+            <div class="btn1 btn1_3" data-nav="1_4_1" data-i="3"></div>
+
+            <div class="btn2 btn2_1" data-nav="1_4_2" data-i="1"></div>
+            <div class="btn2 btn2_2" data-nav="1_4_2" data-i="2"></div>
+            <div class="btn2 btn2_3" data-nav="1_4_2" data-i="3"></div>
+        </div>
+        <div class="Foot" data-nav="1_4">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            产销版图
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page1_4_1">
+        <div class="page _box"></div>
+        <div class="Foot2" data-back="1_4_1" data-nav="1_4">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            宏丰体系构成
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page1_4_2">
+        <div class="page _box"></div>
+        <div class="Foot2" data-back="1_4_2" data-nav="1_4">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            全球市场布局
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page1_5">
+        <div class="page _box">
+            <video class="v1_5" controls="" width="597" height="361">
+                <source src="video/v1_5.mp4" type="video/mp4">
+                <p>Video is not visible, most likely your browser does not support HTML5 video</p>
+            </video>
+        </div>
+        <div class="Foot" data-nav="1_5">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            社会义务
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page2_1">
+        <div class="page _box">
+            <video class="v2_1" controls="" width="597" height="361">
+                <source src="video/v2_1.mp4" type="video/mp4">
+                <p>Video is not visible, most likely your browser does not support HTML5 video</p>
+            </video>
+        </div>
+        <div class="Foot" data-nav="2_1">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            合金材料发展史
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page2_2">
+        <div class="page _box">
+            <video class="v2_2" controls="" width="597" height="361">
+                <source src="video/v2_2.mp4" type="video/mp4">
+                <p>Video is not visible, most likely your browser does not support HTML5 video</p>
+            </video>
+        </div>
+        <div class="Foot" data-nav="2_2">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            工程技术中心
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page2_3">
+        <div class="page _box"></div>
+        <div class="Foot" data-nav="2_3">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            研究成果
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page2_4">
+        <div class="page _box">
+            <video class="v2_4_1" controls="" width="597" height="361">
+                <source src="video/v2_4_1.mp4" type="video/mp4">
+                <p>Video is not visible, most likely your browser does not support HTML5 video</p>
+            </video>
+            <video class="v2_4_2" controls="" width="597" height="361">
+                <source src="video/v2_4_2.mp4" type="video/mp4">
+                <p>Video is not visible, most likely your browser does not support HTML5 video</p>
+            </video>
+            <video class="v2_4_3" controls="" width="597" height="361">
+                <source src="video/v2_4_3.mp4" type="video/mp4">
+                <p>Video is not visible, most likely your browser does not support HTML5 video</p>
+            </video>
+        </div>
+        <div class="Foot" data-nav="2_4">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            智慧生产
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page2_5">
+        <div class="page _box">
+            <div class="btn btn1" data-nav="2_5_1" data-i="1"></div>
+            <div class="btn btn2" data-nav="2_5_1" data-i="2"></div>
+            <div class="btn btn3" data-nav="2_5_1" data-i="3"></div>
+            <div class="btn btn4" data-nav="2_5_1" data-i="4"></div>
+            <div class="btn btn5" data-nav="2_5_1" data-i="5"></div>
+            <div class="btn btn6" data-nav="2_5_1" data-i="6"></div>
+        </div>
+        <div class="Foot" data-nav="2_5">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            产品中心
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page2_5_1">
+        <div class="page _box"></div>
+        <div class="Foot2"  data-back="2_5_1" data-nav="2_5">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            产品中心
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page2_6">
+        <div class="page _box"></div>
+        <div class="Foot" data-nav="2_6">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            综合解决方案
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page3_1">
+        <div class="page _box">
+            <video class="v3_1" controls="" width="597" height="361">
+                <source src="video/v3_1.mp4" type="video/mp4">
+                <p>Video is not visible, most likely your browser does not support HTML5 video</p>
+            </video>
+        </div>
+        <div class="Foot" data-nav="3_1">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            人才工程
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page3_2">
+        <div class="page _box"></div>
+        <div class="Foot" data-nav="3_2">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            战略合作
+        </div>
+    </section>
+
+    <section class="cc Page" id="Page3_3">
+        <div class="page _box"></div>
+        <div class="Foot" data-nav="3_3">
+            <img class="back" src="img/back.png"/>
+            <span>返回</span>
+            未来展望
+        </div>
+    </section>
+
+</div>
+
+<script src="./lib/jquery.mobile-1.4.5.min.js"></script>
+<!--<script src="./lib/underscore.js"></script>-->
+<script src="./lib/createjs/createjs-2015.11.26.min.js"></script>
+<script src="./lib/hammer/hammer.min.js"></script>
+<script src="./lib/hammer/hammer_page.js"></script>
+
+<script src="./lib/swiper/js/swiper.min.js"></script>
+
+<script src="./lib/velocity/velocity.js"></script>
+
+<script src="./lib/libs.js"></script>
+
+
+<script src="./src/js/resize.js"></script>
+<script src="./src/js/init.js"></script>
+<script src="./src/js/index.js"></script>
+
+<script>
+    $("body").on('touchmove',function(event){ event.preventDefault(); },false);
+    $(function(){
+        loader();
+    })
+</script>
+
+
+</body>
+</html>

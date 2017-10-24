@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+/*Main*/
+#Main .bg2{
+    position: absolute; top: 0; left: 0;
+    width: 700px; height: 338px;
+}
+
+#Main .man{
+    position: absolute; left: 69px; top: 185px;
+    width: 550px; height: 782px;
+}
+
+#Main .m1{
+    position: absolute; left: 262px; top: 256px;
+    width: 171px; height: 289px;
+    transform-origin: bottom center;
+}
+#Main .m2{
+    position: absolute; left: 414px; top: 364px;
+    width: 167px; height: 307px;
+}
+#Main .m3{
+    position: absolute; left: 135px; top: 367px;
+    width: 124px; height: 210px;
+    transform-origin: bottom center;
+}
+#Main .m4{
+    position: absolute; left: 169px; top: 189px;
+    width: 136px; height: 235px;
+    transform-origin: bottom center;
+}
+#Main .m5{
+    position: absolute; left: 387px; top: 140px;
+    width: 109px; height: 209px;
+    transform-origin: bottom center;
+}
+
+#Main .b1{
+    position: absolute; left: 193px; top: 581px;
+    width: 51px; height: 106px;
+}
+#Main .b2{
+    position: absolute; left: 565px; top: 457px;
+    width: 52px; height: 107px;
+}
+#Main .b3{
+    position: absolute; left: 79px; top: 425px;
+    width: 52px; height: 106px;
+}
+#Main .b4{
+    position: absolute; left: 137px; top: 228px;
+    width: 52px; height: 106px;
+}
+#Main .b5{
+    position: absolute; left: 495px; top: 265px;
+    width: 51px; height: 107px;
+}
+
+#Main .cake1{
+    position: absolute; left: 229px; top: 565px;
+    width: 255px; height: 217px;
+}
+#Main .cake2{
+    position: absolute; left: 341px; top: 533px;
+    width: 79px; height: 111px;
+    transform-origin: bottom center;
+}
+#Main .name{
+    position: absolute; left: 102px; top: 825px;
+    width: 523px; height: 211px;
+}
+#Main .w{
+    position: absolute; left: 185px; top: 1043px;
+    width: 350px; height: 44px;
+}
+
+#Main .btn1{
+    position: absolute; left: 255px; top: 386px;
+    width: 182px; height: 192px;
+}
+#Main .bbtn1{
+    position: absolute; left: 182px; top: 578px;
+    width: 73px; height: 107px;
+}
+#Main .btn2{
+    position: absolute; left: 437px; top: 403px;
+    width: 193px; height: 175px;
+}
+#Main .btn3{
+    position: absolute; left: 59px; top: 403px;
+    width: 196px; height: 175px;
+}
+#Main .btn4{
+    position: absolute; left: 116px; top: 183px;
+    width: 166px; height: 220px;
+}
+#Main .btn5{
+    position: absolute; left: 387px; top: 211px;
+    width: 172px; height: 162px;
+}
